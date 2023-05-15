@@ -44,7 +44,7 @@
             }
          
          
-            @media (hover: none) and (pointer: coarse) {
+            @media only screen and (max-width: 700px) {
                 #bodyadjust {
                     text-align: center; margin-left: 10%; margin-right: 10%;
                     text-indent: 5%; font-size: 160%; color: red;
