@@ -17,7 +17,7 @@
             width: 270px;
             margin-right: 5%;
             border-radius: 8px;
-            border:2px solid rgb(141, 92, 3);
+            border:4px solid rgb(141, 92, 3);
             padding: 5px;
                 }
          
@@ -29,7 +29,7 @@
                 width: 270px;
                 margin-left: 5%;
                 border-radius: 8px;
-                border:2px solid rgb(141, 92, 3);
+                border:4px solid rgb(141, 92, 3);
                 padding: 5px;
                 }
          
@@ -47,12 +47,12 @@
            
                 #bodyadjust {
                     text-align: center; margin-left: 10%; margin-right: 10%;
-                    text-indent: 5%; font-size: 160%; color: red;
+                    text-indent: 5%; font-size: 160%;
                 }
 
             @media (min-width: 1200px) {
             #bodyadjust {
                 text-align: center; margin-left: 20%; margin-right: 20%;
-                text-indent: 10%; font-size: 180%; color: blue;
+                text-indent: 10%; font-size: 180%;
             }}
          
