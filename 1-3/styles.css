@@ -17,6 +17,13 @@
                     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
                     text-shadow: -6px -6px orangered;
         }
+        @media (max-width: 1290px) {
+            #header1{
+            text-indent: -185px; 
+            font-size: 65px;
+            text-shadow: -5px -5px orangered;
+            }
+        }
 
 
         #header2 {
@@ -26,6 +33,13 @@
                     line-height: 40%; 
                     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
                     text-shadow: -6px -6px orangered
+        }
+        @media (max-width: 1290px) {
+            #header2{
+                text-indent: 100px; 
+                font-size: 65px;
+                text-shadow: -5px -5px orangered;
+            }
         }
          
          
