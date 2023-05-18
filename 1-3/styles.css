@@ -28,7 +28,7 @@
         }
         @media (max-width: 900px) {
             #header1{
-                text-indent: -92.5px; 
+                text-indent: -112.5px; 
                 font-size: 50px;
                 text-shadow: -3px -3px orangered;
                 }
@@ -140,7 +140,11 @@
              {background-color:rgb(169, 99, 42)}
 
              #butt {
-                font-size: 14px; background-color:rgb(245, 127, 31);
+                font-size: 10px; background-color:rgb(255, 150, 65);
+             }
+             @media (min-width: 900px) {
+                #butt { font-size: 12px; background-color:rgb(245, 127, 31);
+                }
              }
              @media (min-width: 1290px) {
                 #butt {
