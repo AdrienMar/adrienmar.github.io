@@ -134,7 +134,7 @@
                 text-decoration: none;
                 display: inline-block;
                 width: 7%;
-                min-width: 90px
+                min-width: 60px
               }
             a:hover, a:active
              {background-color:rgb(169, 99, 42)}
