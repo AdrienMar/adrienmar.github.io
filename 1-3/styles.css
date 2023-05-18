@@ -9,6 +9,8 @@
           text-align: center;
         }
 
+
+
         #header1 {
             text-align: center; 
                     text-indent: -370px; 
@@ -24,7 +26,13 @@
             text-shadow: -5px -5px orangered;
             }
         }
-
+        @media (max-width: 900px) {
+            #header1{
+                text-indent: -92.5px; 
+                font-size: 50px;
+                text-shadow: -3px -3px orangered;
+                }
+        }
 
         #header2 {
             text-align: center; 
@@ -41,8 +49,17 @@
                 text-shadow: -5px -5px orangered;
             }
         }
+        @media (max-width: 900px) {
+            #header2{
+                text-indent: 50px; 
+                font-size: 50px;
+                text-shadow: -3px -3px orangered;
+                }
+        }
          
          
+
+
             #style1  {
             float: right;    
             margin: 0 0 0 15px;
@@ -117,6 +134,7 @@
                 text-decoration: none;
                 display: inline-block;
                 width: 7%;
+                min-width: 90px
               }
             a:hover, a:active
              {background-color:rgb(169, 99, 42)}
