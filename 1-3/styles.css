@@ -105,6 +105,8 @@
             @media (max-width: 900px) {
                 #style1 {
                     float: center;
+                    margin-right: 0%;
+                    margin-left: 0%;
                 }
             }
          
@@ -138,6 +140,8 @@
                 @media (max-width: 900px) {
                     #style2 {
                         float: center;
+                        margin-right: 0%;
+                        margin-left: 0%;
                     }
                 }
          
@@ -170,8 +174,8 @@
              }
              @media (min-width: 900px) {
                 #butt { font-size: 12px; background-color:rgb(245, 127, 31);
-                    padding: 20px 5%;
-                    padding-bottom: 20px;
+                    padding: 10px 3%;
+                    padding-bottom: 10px;
                 }
              }
              @media (min-width: 1290px) {
