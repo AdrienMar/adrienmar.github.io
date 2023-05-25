@@ -1,0 +1,11 @@
+#basicParagraph {
+    font-size: medium;
+    line-height: 1.5;
+    text-indent: 50px;
+}
+#photo {
+    float: right;
+    margin: 10px;
+    position: relative;
+    size: 80px 80px;
+}
