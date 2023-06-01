@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <!--a lot of the code is given on the website. just go to the website!-->
+<head> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: whitesmoke">
     <div> <!--whole background-->
-        <div> <!--Whole header bar-->
-
+        <div style="padding-top: 20px; padding-bottom: 20px;"> <!--Whole header bar-->
+                <img src="./resources/GoFigLogo.png" style="padding-left: 70px;">
             <!--leftmost float logo-->
-            <div> <!--float this div right, this'll contain the "page selected", 
+            <div style="float:right;"> <!--float this div right, this'll contain the "page selected", 
                     the nav-bar, and the sign-in button-->
-                <div> <!--Nav bar with buttons to links=#, floated right-->
-
+                <div style="float: left; padding-top: 16px; padding-right: 10px;"> <!--Nav bar with buttons to links=#, maybe change to center float?-->
+                    <a href="#" id="navbutton"> filler </a>
+                    <a href="#" id="navbutton"> filler </a>
+                    <a href="#" id="navbutton"> filler </a>
+                    <a href="#" id="navbutton"> filler </a>
+                    <div id="roundbutton">
+                    <a href="#"> Sign in </a>
+                    </div>
                 </div> <!--Close of Nav bar-->
             </div> <!--Close of FloatRightheader section-->
         </div> <!--Close of whole header bar-->
@@ -16,9 +25,11 @@
     <!--here comes the whole mess of the background bit-->
 
 <div><!--AHHHHHHHHHHHH-->
-    <div> <!--background image-->
-        <div><!--"Go places" menu-->
-
+    <div id="upperchunk"> <!--background image-->
+        <div style="color: white; text-align:center; padding-top:190px;"><!--"Go places" menu-->
+            <h1 style="text-align: center; padding-right: 500px; font-size:70px; margin-bottom: 5px;">Go Places</h1>
+            <h3 style="text-align: left; padding-left: 320px; margin: 0px;"> WITH FIGMA </h3> 
+            <div id="line"> </div>
         </div><!--close of "Go places"-->
         <div><!--gradient-->
             <div><!--buttons over gradient-->
@@ -127,4 +138,5 @@
 </div><!--close of footer-->
 
     </div> <!--close of whole background.-->
+</body>
 </html>

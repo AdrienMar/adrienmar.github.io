@@ -1,0 +1,31 @@
+#upperchunk {
+    background-image: url(./resources/Rectanglemainbackg.png);
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#navbutton {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 400px;
+    font-size: 16px;
+}
+#roundbutton {
+    border: 10px;
+    border-color: black;
+    border-radius: 5px;
+    float: right;
+
+}
+#line {
+position: absolute;
+width: 343px;
+height: 0px;
+left: 525px;
+top: 430px;
+
+border: 2px solid #FFFFFF;
+}
